@@ -27,4 +27,3 @@ document.write("<img class=\"inlarge\" data-iframe=\"https:\/\/player.vimeo.com\
 document.write("<img class=\"inlarge\" data-iframe=\"https:\/\/player.vimeo.com\/video\/61483000\" src=\"https:\/\/goo.gl\/i7phkr\" style=\"margin: 0px 0px 15px 15px;\" width=\"220\" \/>");
 document.write("<img class=\"inlarge\" data-iframe=\"https:\/\/player.vimeo.com\/video\/61483000\" src=\"https:\/\/goo.gl\/e3Hglo\" style=\"margin: 0px 0px 15px 15px;\" width=\"220\" \/>");
 document.write("<img class=\"inlarge\" data-iframe=\"https:\/\/player.vimeo.com\/video\/61483000\" src=\"https:\/\/goo.gl\/Bws9r7\" style=\"margin: 0px 0px 15px 15px;\" width=\"220\" \/>");
-
