@@ -1,0 +1,46 @@
+/* CSS Syntax Highlighter */
+pre {vertical-align:middle;padding:35px 10px 10px 10px;margin:.5em 0;white-space:pre;word-wrap:break-word;overflow:auto;background-color:#222;position:relative;max-width:700px;max-height:500px;border-radius:3px;}
+pre::before {font-size:13px;content:attr(title);position:absolute;top:0;background-color:transparent;padding:6px 10px 7px 10px;left:0;right:0;color:#fff;display:block;margin:0 0 15px 0;font-weight:400;box-shadow:0 1px 3px rgba(0,0,0,0.1);}
+pre::after {content:"Double click to selection";padding:2px 10px;width:auto;height:auto;position:absolute;right:8px;top:4px;font-size:12px;color:#fff;line-height:20px;transition:all 0.3s ease-in-out;}
+pre:hover::after {opacity:0;top:-8px;visibility:visible;}
+code {font-family:'Arimo'sans-serif;line-height:16px;color:#88a9ad;background-color:transparent;
+padding:1px 2px;font-size:13px;}
+pre code {display:block;background:none;border:none;color:#c2bfd2;direction:ltr;
+text-align:left;word-spacing:normal;padding:10px;font-weight:bold;}
+code .token.punctuation {color:#ba3a3e;}
+pre code .token.punctuation {color:#777;}
+code .token.comment,code .token.prolog,code .token.doctype,code .token.cdata {color:#666;}
+code .namespace {opacity:.8;}
+code .token.property,code .token.tag,code .token.boolean,code .token.number {color:#d75046;}
+code .token.selector,code .token.attr-name,code .token.string {color:#88a9ad;}
+pre code .token.selector,pre code .token.attr-name {color:#00a1d6;}
+pre code .token.string {color:#6fb401;}
+code .token.entity,code .token.url,pre .language-css .token.string,pre .style .token.string {color:#5ac954;}
+code .token.operator {color:#1887dd;}
+code .token.atrule,code .token.attr-value {color:#009999;}
+pre code .token.atrule,pre code .token.attr-value {color:#1baeb0;}
+code .token.keyword {color:#e13200;font-style:italic;}
+code .token.comment {font-style:italic;}
+code .token.regex {color:#ccc;}
+code .token.important {font-weight:bold;}
+code .token.entity {cursor:help;}
+pre mark {background-color:#ea4f4e!important;color:#fff!important;padding:2px;border-radius:2px;}
+code mark {background-color:#ea4f4e!important;color:#fff!important;padding:2px;border-radius:2px;}
+pre code mark {background-color:#ea4f4e!important;color:#fff!important;padding:2px;border-radius:2px;}
+.comments pre {padding:10px 10px 15px 10px;background:#222;}
+.comments pre::before {content:'Code';font-size:12px;position:relative;top:0;
+background-color:#5a9ad2;padding:1px 6px;left:0;right:0;color:#fff;text-transform:uppercase;
+display:inline-block;margin:0 0 10px 0;font-weight:400;border-radius:3px;border:none;}
+.comments pre::after {font-size:11px;}
+.comments pre code {color:#c2bfd2;}
+.comments pre.line-numbers {padding-left:10px;}
+pre.line-numbers {position:relative;padding-left:3.0em;counter-reset:linenumber;}
+pre.line-numbers > code {position:relative;}
+.line-numbers .line-numbers-rows {height:100%;position:absolute;top:0;font-size:100%;left:-3.5em;width:3.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;padding:10px 0 0 0;background:#2a2a2a;border-right:1px solid #3a3a3a;}
+.line-numbers-rows > span {display:block;counter-increment:linenumber;}
+.line-numbers-rows > span:before {content:counter(linenumber);color:#666;display:block;
+padding-right:0.8em;text-align:right;transition:350ms;}
+pre[data-codetype="CSS"]:before{background-color:#9008e7;}
+pre[data-codetype="HTML"]:before{background-color:#f8a82a;}
+pre[data-codetype="JavaScript"]:before{background-color:#6f9923;}
+pre[data-codetype="JQuery"]:before{background-color:#e52b50;}
