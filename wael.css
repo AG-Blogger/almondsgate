@@ -326,7 +326,7 @@ header {
 
 #home-projects .owl-prev:before,#home-projects .owl-next:before,.home-quotes .flex-prev:before,.home-quotes .flex-next:before,.home-quotes2 .owl-prev:before,.home-quotes2 .owl-next:before,#home-projects2 .owl-prev:before,#home-projects2 .owl-next:before,#home-projects3 .owl-prev:before,#home-projects3 .owl-next:before {
 	content: "\f053";
-	font-size: 11px;
+	font-size: 9px;
 	text-align: center;
 	line-height: 27px;
 	position: absolute;
@@ -350,7 +350,7 @@ header {
 .quote {
 	font-family: Georgia;
 	font-style: italic;
-	font-size: 10px;
+	font-size: 9px;
 	background: #fff;
 	padding: 25px 72px;
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.03);
@@ -403,13 +403,13 @@ header {
 }
 
 .quote-paging li h4 {
-	font-size: 15px;
+	font-size: 9px;
 	margin: 15px 0 2px;
 	text-align: center;
 }
 
 .quote-paging li h6 {
-	font-size: 11px;
+	font-size: 9px;
 	margin: 0;
 	text-align: center;
 	font-style: italic;
