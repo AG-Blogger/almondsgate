@@ -278,68 +278,174 @@ header {
 |
 */
 
-
+.home-quotes {
+	margin-top:45px;
+	padding-bottom: 0;
+	margin-bottom: 40px;
 }
 
-
+.p-item {
+	padding: 2.5px;
+	overflow: hidden;
 }
 
-
+.home-projects .row {
+	margin: 0 -2.5px;
 }
 
-
+#home-projects .owl-buttons,.home-quotes2 .owl-buttons,#home-projects2 .owl-buttons,#home-projects3 .owl-buttons {
+	display: table;
+	top: -42px;
+	position: absolute;
+	right: 0;
 }
 
-
+#home-projects .owl-prev,.home-quotes .flex-prev,.home-quotes2 .owl-prev,#home-projects2 .owl-prev,#home-projects3 .owl-prev {
+	background: #fff !important;
+	opacity: 1;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	position: relative;
+	margin: 0;
+	color: #000 !important;
 }
 
-
+#home-projects .owl-next,.home-quotes .flex-next,.home-quotes2 .owl-next,#home-projects2 .owl-next,#home-projects3 .owl-next {
+	background: #fff !important;
+	opacity: 1;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	position: relative;
+	margin: 0 0 0 9px;
+	color: #000 !important;
 }
 
-
+#home-projects .owl-prev:before,#home-projects .owl-next:before,.home-quotes .flex-prev:before,.home-quotes .flex-next:before,.home-quotes2 .owl-prev:before,.home-quotes2 .owl-next:before,#home-projects2 .owl-prev:before,#home-projects2 .owl-next:before,#home-projects3 .owl-prev:before,#home-projects3 .owl-next:before {
+	content: "\f053";
+	font-size: 11px;
+	text-align: center;
+	line-height: 27px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+	font-family: FontAwesome;
+	width: 26px;
+	height: 26px;
 }
 
-
+#home-projects .owl-next:before,.home-quotes .flex-next:before,.home-quotes2 .owl-next:before,#home-projects2 .owl-next:before,#home-projects3 .owl-next:before {
+	content: "\f054" !important;
 }
 
-
+#home-projects .owl-prev:hover,#home-projects .owl-next:hover,.home-quotes .flex-prev:hover,.home-quotes .flex-next:hover,#home-projects2 .owl-prev:hover,#home-projects2 .owl-next:hover,#home-projects3 .owl-prev:hover,#home-projects3 .owl-next:hover {
+	color: #fff !important;
 }
 
-
+.quote {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 18px;
+	background: #fff;
+	padding: 25px 72px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.03);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.03);
+	box-shadow: 0 1px 3px rgba(0,0,0,.03);
+	border: solid 1px #ccc;
+	text-align: center;
+	line-height: 26px;
+	color: #444;
+	margin-bottom:0
 }
 
-
+.quote-paging {
+	padding: 0;
+	margin: -8px 0 0 ;
 }
 
-
+.quote-paging .flex-active:after {
+	content: '';
+	background:url(../images/quote-arrow.png);
+	display: table;
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	top: -22px;
+	left: 55px;
+	z-index:10;
 }
 
-
+.quote-paging li {
+	float: left;
+	list-style: none;
+	margin-right: 1%;
+	width: 15.8333333333%;
+	opacity: 0.5;
+	cursor: pointer;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
-
+.quote-paging li:last-child {
+	margin-right: 0;
 }
 
-
+.quote-paging li img {
+	display: table;
+	margin: 0 auto;
 }
 
-
+.quote-paging li h4 {
+	font-size: 15px;
+	margin: 15px 0 2px;
+	text-align: center;
 }
 
+.quote-paging li h6 {
+	font-size: 11px;
+	margin: 0;
+	text-align: center;
+	font-style: italic;
 }
 
-
+.quote-paging .flex-active {
+	position: relative;
+	top: -15px !important;
+	opacity: 1 !important;
 }
 
-
+.quote-paging li:hover {
+	opacity: 1 !important;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
-
+.flex-next {
+	position: relative;
+	top: -27px !important;
+	float: right;
+	right: 15px !important;
 }
 
+.flex-prev {
+	position: relative;
+	left: 15px !important;
 }
 
-
+.home-quotes .flex-direction-nav {
+	display: table;
+	width: 100%;
+	margin-top: -65px;
+	margin-bottom: 55px;
 }
 
 /*
