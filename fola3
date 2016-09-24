@@ -31,7 +31,7 @@ span.wrstudio-play {display: inline-block; background-color: transparent;
 span.wrstudio-play:hover {background-image: url(wrstudio-play-512-hover.png);}
 
 /* 
-
+.home-blog-content:hover .home-blog-overlay {background-color: transparent;}
 
 
  */
