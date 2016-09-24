@@ -2922,5 +2922,150 @@ opacity:1 !important;
 .icon-demo i {font-size:23px; margin:1.6px; display:inline-block }
 .icon-demo h2 {margin-bottom:20px}
 
+/*
+|--------------------------------------------------------------------------
+|  18.0 Additional Styles
+|  
+|--------------------------------------------------------------------------
+|
+| 
+|
+*/
 
+.quote-post .blog-meta{
+	margin:auto !important;
+}
+
+.icon-404 {
+    font-size:100px; 
+}
+
+.wrap-404 {
+    text-align:center    
+}
+
+.wrap-404 button {
+    margin-bottom:5px
+}
+
+.wpb_tabs_nav > li {
+    margin-bottom: -1px !important;
+}
+
+.wpb_tab p{
+	 color: #FFFFFF !important;
+}
+
+.wpb_tab {
+    color: #FFFFFF !important;
+    display: block;
+    padding: 15px 23px !important;
+}
+
+.panel-group {
+    margin-bottom: 2px;
+}
+
+.flv_padding{
+	margin-bottom:100px;
+}
+
+.flexslider#home-slider2 .slides img{
+	width:auto !important
+}
+
+form#newsletter label.error {
+	color:#fff
+}
+
+input#submit_mail {
+	-webkit-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.home-blog .quote-post img,.home-blog .quote-post  .home-blog-overlay, .home-blog .quote-post h4 {
+	display:none
+}
+
+.home-blog .quote-post {
+	margin-top:1px
+}
+
+.modal .project-details {
+	color:#fff
+}
+
+.home-blog .quote-post h3 {
+	color: #444;
+}
+
+.home-blog .quote-post:hover h3 {
+	color: #fff;
+}
+
+.home-blog .quote-post {
+	background:#fff 
+}
+
+.flv_quote_author {
+ 	font-family: Georgia;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+	display:block;
+	color:#888
+}
+
+.home-blog .quote-post:hover .flv_quote_author {
+	color:#fff
+}
+
+.home-blog .quote-post h3 {
+    color: #444444;
+    font-size: 10px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.format-quote {
+	border-bottom:0px; 
+}
+
+.blog-meta a:hover {
+	color:#444
+}
+
+.widget_recent_entries li {
+	text-indent:-15px; 
+	padding-left:15px
+}
+
+#product-single-item .owl-item img{ 
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+}
+
+img {
+	max-width:100%;
+}
+
+
+.related-posts .home-blog-content { 
+	margin-bottom:0 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+div.pr-p, div.pr {
+width:100% !important
+}
+
+.home-projects img {
+width:100%; height:auto
 }
