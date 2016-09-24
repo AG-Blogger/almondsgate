@@ -1,16 +1,13 @@
+.nav-portfolio .page-numbers {border-style: solid; border-width: 1px; box-sizing: border-box;
+	border-color: transparent; 	display: inline-block; margin: 0 4px; min-width: 32px;
+	padding: 5px; border-radius: 50%;}
 
+.nav-portfolio span.current {background: #000; color: #fff;}
 
-/* new value by Andrey K.: */
-.grey-line {display: none;}
+.nav-portfolio a.page-numbers:hover {color: #00b22d; border-color: #00b22d;}
 
-.portfolio-item-title {position: absolute; width: auto; bottom: 0; left: 0; font-size: 14px; color: #fff; margin:0; padding: 4px;
-	/* color background: */
-	background-color: #FF6700;
+.grey-line { /* height: 0px; border-top: solid 1px #ddd; margin: 24px 0; */ }
 
-/* or green aura around titles: */
-/* text-shadow: 1px 1px 2px #090, -1px -1px 2px #090; */
-	
-}
 
 
 .folio-item .overlay-inner {text-align: center;}
