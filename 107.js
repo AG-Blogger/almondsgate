@@ -49,8 +49,8 @@
                 if($(object).is('img')) {
 
                     if(settings.animateIn) {    
-                        var icon = '<span class="icon" style="position: absolute; center: -100%; top: 30; height: 80%; width: 100%; background:url('+settings.icon+') center center no-repeat"></span>';
-                        $(object).wrap('<div class="slickhoverWrapper" style="position: relative; max-width:50%; overflow:hidden; display:inline-block; background:'+settings.color+';"></div>');
+                        var icon = '<span class="icon" style="position: absolute; center: -500%; top: 30; height: 100%; width: 100%; background:url('+settings.icon+') center center no-repeat"></span>';
+                        $(object).wrap('<div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:'+settings.color+';"></div>');
                         $(icon).insertBefore($(object));
                     }
                     else
