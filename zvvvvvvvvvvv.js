@@ -15,7 +15,7 @@
 
         var defaults = $.extend({
             animateIn: false,
-            icon: 'images/slickhover/zoom-white.png',
+            icon: 'http://nforceinfra.com/images/slickhover/video-black.png',
             color: '',
             opacity: 0.2,
             speed: 400
