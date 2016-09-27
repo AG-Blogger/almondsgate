@@ -207,7 +207,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 50%;
-	margin-bottom: -35px;
+	margin-bottom: -135px;
 	z-index: 8050;
 	text-align: center;
 }
@@ -215,7 +215,7 @@
 .fancybox-title-float-wrap .child {
 	display: inline-block;
 	margin-right: -100%;
-	padding: 12px 50px;
+	padding: 12px 20px;
 	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
 	background: rgba(255, 255, 0, 0.8);
 	-webkit-border-radius: 15px;
