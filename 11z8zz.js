@@ -55,8 +55,8 @@
 			padding : 15,
 			margin  : 20,
 
-			width     : 900,
-			height    : 750,
+			width     : 1100,
+			height    : 850,
 			minWidth  : 100,
 			minHeight : 100,
 			maxWidth  : 9999,
@@ -1918,7 +1918,6 @@
 					}
 
 					if (relVal && relVal !== '' && relVal !== 'nofollow') {
-						what = selector.length ? $(selector) : that;
 						what = what.filter('[' + relType + '="' + relVal + '"]');
 						idx  = what.index(this);
 					}
@@ -1949,7 +1948,11 @@
 
 	// Tests that need a body at doc ready
 	D.ready(function() {
-		if ( $.scrollbarWidth === undefined ) {
+		if ( $.scrollbar
+		    
+		    
+		    
+		 === undefined ) {
 			// http://benalman.com/projects/jquery-misc-plugins/#scrollbarwidth
 			$.scrollbarWidth = function() {
 				var parent = $('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo('body'),
