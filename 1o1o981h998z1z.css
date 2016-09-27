@@ -216,7 +216,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 50%;
-	margin-bottom: -35px;
+	margin-bottom: -85px;
 	z-index: 8050;
 	text-align: center;
 }
@@ -226,10 +226,10 @@
 	margin-right: -100%;
 	padding: 2px 20px;
 	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba();
 	-webkit-border-radius: 15px;
 	   -moz-border-radius: 15px;
-	        border-radius: 15px;
+	        border-radius: 0px;
 	text-shadow: 0 1px 2px #222;
 	color: #FFF;
 	font-weight: bold;
