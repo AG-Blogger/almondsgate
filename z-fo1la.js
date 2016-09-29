@@ -41,7 +41,7 @@
                 + '" height="'
                 + videoHeight
                 + '" src="http://cdn.playwire.com/bolt/js/zeus/embed.js'
-                + options.data-config
+                + options.videoId
                 + '" frameborder="0" allowfullscreen></iframe>');
 
             iframe.appendTo(modal);      
