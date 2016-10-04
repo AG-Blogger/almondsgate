@@ -183,7 +183,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url();
+	background: url(https://www.wordbee.com/Content/Wordbee/Images/loading1.gif);
 }
 
 .fancybox-overlay-fixed {
