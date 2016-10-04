@@ -1,1 +1,0 @@
-<script src="//cdn.playwire.com/bolt/js/zeus/embed.js" data-config="//config.playwire.com/21772/videos/v2/5165133/zeus.json" data-width="100%" data-height="100%"  type="text/javascript" charset="utf-8"></script>
