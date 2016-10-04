@@ -94,7 +94,7 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url(http://www.myconfinedspace.com/wp-content/uploads/2016/04/loading_logofinal_by_zegerdon-d60eb1v.gif) center center no-repeat;
+	background: url(http://www.futurequestisland.org/images/app/preloader.gif) center center no-repeat;
 }
 
 .fancybox-close {
@@ -183,7 +183,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsRAa8xDnjlno3XA4Y7V66YEmjQyIZsXqR6ZtSGePea1pEjoFD);
+	background: url();
 }
 
 .fancybox-overlay-fixed {
