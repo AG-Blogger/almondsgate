@@ -183,7 +183,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url(https://d13yacurqjgara.cloudfront.net/users/108183/screenshots/2389529/likeapreloader.gif);
+	background: url(https://github.com/fancyapps/fancyBox/blob/master/source/fancybox_loading.gif);
 }
 
 .fancybox-overlay-fixed {
