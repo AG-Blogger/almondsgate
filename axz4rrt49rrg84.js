@@ -145,7 +145,7 @@ function loadHtml5LightBox(jsFolder) {
                 supportarrowkeys: true,
                 version: "3.3",
                 stamp: true,
-               
+                 freemark: "72,84,77,76,53,32,76,105,103,104,116,98,111,120,32,70,114,101,101,32,86,101,114,115,105,111,110",
                 watermark: "",
                 watermarklink: ""
             }, options);
