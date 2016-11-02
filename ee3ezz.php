@@ -137,7 +137,6 @@ function get_ie_version()
 
 <body style="margin:0px;background-color:#000000;" oncontextmenu="return false;">
 			<!--<div id="div_countdown">&nbsp;</div>-->
-			<div id="div_adclose"><img src="img/close_button.png" height="20" width="20" onclick="play_now();" onmouseover="this.src='img/close_button_onfocus.png';" onmouseout="this.src='img/close_button.png';"></div>
 			<table id="table_ad">
 				<tr>
 					<td>
