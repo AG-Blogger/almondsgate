@@ -137,10 +137,12 @@ function get_ie_version()
 
 <body style="margin:0px;background-color:#000000;" oncontextmenu="return false;">
 			<!--<div id="div_countdown">&nbsp;</div>-->
+			<div id="div_adclose"><img src="img/close_button.png" height="20" width="20" onclick="play_now();" onmouseover="this.src='img/close_button_onfocus.png';" onmouseout="this.src='img/close_button.png';"></div>
 			<table id="table_ad">
 				<tr>
 					<td>
 						<br />
+							<!--<script  type="text/javascript" src="//eclkspbn.com/adServe/banners?tid=25536_36047_8&type=shadowbox&autoClose=disable&size=300x250"></script>-->
 							<script type="text/javascript" src="//eclkspbn.com/adServe/banners?tid=25536_36047_3"></script>
 						<br />
 					</td>
