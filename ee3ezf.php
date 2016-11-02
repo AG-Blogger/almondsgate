@@ -137,98 +137,13 @@ function get_ie_version()
 
 <body style="margin:0px;background-color:#000000;" oncontextmenu="return false;">
 			<!--<div id="div_countdown">&nbsp;</div>-->
+			<div id="div_adclose"><img src="img/close_button.png" height="20" width="20" onclick="play_now();" onmouseover="this.src='img/close_button_onfocus.png';" onmouseout="this.src='img/close_button.png';"></div>
 			<table id="table_ad">
 				<tr>
 					<td>
 						<br />
-						<script>
-							(function() {
-	var tagType="POPUNDER";
-	if(_$pt[tagType])return;
-	_$pt[tagType]=true;
-	var companionId = "25536_36047_1";
-	if (!_$cmp[companionId]) {
-		_$cmp[companionId] = true;
-
-		var g = document.createElement("script");
-		g.type = "text/javascript";
-		g.src = "//eclkmpbn.com/adServe/banners?tid=25536_36047_1&tagid=2";
-
-		var scripts = document.getElementsByTagName("script");
-		var myScript;
-		var found = false;
-		for (var i = (scripts.length - 1); i >= 0; i--) {
-			myScript = scripts[i];
-			if (myScript.src.indexOf("tid=25536_36047_3") != -1) {
-				found = true;
-				break;
-			}
-		}
-		if (!found) {
-			myScript = scripts[scripts.length - 1];
-		}
-
-		if (myScript.parentNode != document.getElementsByTagName("head")[0]) {
-			myScript.parentNode.insertBefore(g, myScript.nextSibling);
-		} else {
-			var bodyOnLoad = function() {
-				document.getElementsByTagName('body')[0].appendChild(g);
-			};
-
-			if (window.addEventListener) {
-				window.addEventListener("load", bodyOnLoad, false);
-			} else if (window.attachEvent) {
-				window.attachEvent("onload", bodyOnLoad);
-			}
-		}
-	}
-})();
-var _$cmp = _$cmp || {};
-var _$pt = _$pt || [];//presented type
-
-(function() {
-	var tagType="BOUNCE";
-	if(_$pt[tagType])return;
-	_$pt[tagType]=true;
-	var companionId = "25536_36047_2";
-	if (!_$cmp[companionId]) {
-		_$cmp[companionId] = true;
-
-		var g = document.createElement("script");
-		g.type = "text/javascript";
-		g.src = "//clksite.com/adServe/banners?tid=25536_36047_2&pause=5";
-
-		var scripts = document.getElementsByTagName("script");
-		var myScript;
-		var found = false;
-		for (var i = (scripts.length - 1); i >= 0; i--) {
-			myScript = scripts[i];
-			if (myScript.src.indexOf("tid=25536_36047_3") != -1) {
-				found = true;
-				break;
-			}
-		}
-		if (!found) {
-			myScript = scripts[scripts.length - 1];
-		}
-
-		if (myScript.parentNode != document.getElementsByTagName("head")[0]) {
-			myScript.parentNode.insertBefore(g, myScript.nextSibling);
-		} else {
-			var bodyOnLoad = function() {
-				document.getElementsByTagName('body')[0].appendChild(g);
-			};
-
-			if (window.addEventListener) {
-				window.addEventListener("load", bodyOnLoad, false);
-			} else if (window.attachEvent) {
-				window.attachEvent("onload", bodyOnLoad);
-			}
-		}
-	}
-})();
-						</script>
-<br />
+							<script type="text/javascript" src="//eclkspbn.com/adServe/banners?tid=25536_36047_3"></script>
+						<br />
 					</td>
 				</tr>
 			</table>
