@@ -1,0 +1,21 @@
+
+<!DOCTYPE html><html class=''>
+<head>
+
+
+<style class="cp-pen-styles"></style></head><body>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+<video id="video" controls></video>
+
+<script>if (Hls.isSupported()) {
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('http://dmivll.mangomolo.com/samadubai/smil:samadubai.smil/chunklist_b1600000.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        video.play();
+    });
+}
+//# sourceURL=pen.js
+</script>
+</body></html>
