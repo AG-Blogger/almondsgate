@@ -62,5 +62,11 @@
 <script>flowplayer.conf.embed = true;
 flowplayer.conf.fullscreen = true;
 //# sourceURL=pen.js
+
+flowplayer.conf = {
+  fullscreen: true,
+  // iOS allows only native fullscreen from within iframes
+  native_fullscreen: /ip(ad|hone|od)/i.test(navigator.userAgent)
+};
 </script>
 </body></html>
