@@ -38,6 +38,14 @@
   -moz-transition: opacity .15s .3s;
   transition: opacity .15s .3s;
 }
+  
+  
+  
+  flowplayer.conf = {
+  fullscreen: true,
+  // iOS allows only native fullscreen from within iframes
+  native_fullscreen: /ip(ad|hone|od)/i.test(navigator.userAgent)
+};
 </style></head><body>
 <div data-ratio="0.5625"
      data-loop="true"
@@ -63,10 +71,5 @@
 flowplayer.conf.fullscreen = true;
 //# sourceURL=pen.js
 
-flowplayer.conf = {
-  fullscreen: true,
-  // iOS allows only native fullscreen from within iframes
-  native_fullscreen: /ip(ad|hone|od)/i.test(navigator.userAgent)
-};
 </script>
 </body></html>
