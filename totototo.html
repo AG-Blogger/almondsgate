@@ -1,0 +1,467 @@
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+<style class="cp-pen-styles">.padiOverlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+	visibility: visible;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+	z-index: 1040;
+}
+.padiFade { 
+  zoom: 1;
+	background-color: rgba(0,0,0,0.6);
+  width: 100%;
+	height: 100%;
+	z-index: 1041;
+}
+.padiPop4Overlay h1, .padiPop4Overlay h2, .padiPop4Overlay h3, .padiPop4Overlay div, .padiPop4Overlay ul, .padiPop4Overlay li, .padiPop4Overlay ol, .padiPop4Overlay p, .padiPop4Overlay a, .padiPop4Overlay input, .padiPop4Overlay input[type=text], .padiPop4Overlay input[type=email] {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+	vertical-align: middle;
+	float: none;
+	width: auto;
+	height: auto;
+	background-image: none;
+	letter-spacing: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	list-style: none;
+	-webkit-text-shadow: none !important;
+	-moz-text-shadow: none !important;
+	text-shadow: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.padiPop4Overlay *, .padiPop4Overlay *:before, .padiPop4Overlay *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.padiPop4Wrap {
+	position: absolute;
+	visibility: visible;
+	z-index: 1602;
+	padding: 0px;
+	left: 50%;
+	margin-left: -295px;
+	top: 50%;
+	margin-top: -250px;
+	height: 398px;
+	width: 587px;
+	background-image: url(http://jokerstudios.sweb.cz/tescoma-popup/bkg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.padiPop4Overlay {
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+	font-size: 13px;
+  line-height: 15px;
+	background-color: transparent;
+	background-image: none;
+	background-repeat: no-repeat;
+	padding: 0px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	position: static;
+	margin: 0;
+	z-index: 1060;
+	overflow: auto;
+}
+.padiPop4Overlay a {
+	color: inherit;
+	text-decoration: underline;
+	border-bottom: none;
+}
+.padiPop4Overlay a:hover { 
+	color:inherit;
+	text-decoration: underline;
+	border-bottom: none;
+}
+.padiPop4Overlay .padiTitle {
+	color: #ffffff;
+	background-image: none;
+	width: 500px;
+	height: 82px;
+	padding: 0;
+	margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+	text-shadow: none;
+	text-decoration: none;
+	text-align: center;
+}
+.padiPop4Overlay .point {
+	color: #ff6f00;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 5px 3px 2px;
+	line-height: 16px;
+}
+.padiPop4Overlay .list {
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px 0;
+	line-height: 16px;
+}
+.padiPop4Overlay div.padiPopupContent {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	margin-bottom: 0;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	color: #2d2d2d;
+	height: auto;
+}
+.padiPop4Overlay .padiContent {
+	padding: 190px 42px 0 42px;
+	color: #2d2d2d;
+}
+.padiPop4Overlay .padiContent p {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-weight: 100;
+	text-align: center;
+}
+.padiPop4Overlay .padiContent p.subtitle {
+	background-image: none;
+  width: 500px;
+  height: 45px;
+	margin: 0;
+	font-weight: 600;
+  color: #ffffff;
+  font-size: 39px;
+	text-align: center;
+}
+.padiPop4Overlay .padiContent p.padiErrorMessage {
+	margin: -14px 0 0px 0;
+	padding: 0px;
+  color: #000000;
+	font-weight: 600;
+	text-align: center;
+}
+.padiPop4Overlay .padiCriticalMessage {
+	border: none !important;
+	background: #FCC;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #b10000;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+.padiPop4Overlay .padiFields {
+	width: 100%;
+	display: block;
+	vertical-align: top;
+  text-align: center;
+	padding: 0;
+}
+.padiPop4Overlay .padiThanks {
+	position: absolute;
+	top: 210px;
+	left: 90px;
+	background-image: none;
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+	font-size: 16px;
+  line-height: 20px;
+	width: 400px;
+	display: block;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0;
+	font-weight: normal;
+	color: #ffffff;
+  text-align: center;
+}
+.padiPop4Overlay .padiThanksTitle {
+	font-size: 32px;
+  margin: 0 0 30px 0;
+}
+.padiPop4Overlay .padiThanks .Closebutton {
+	position: relative;
+	top: 20px;
+	left: 150px;
+  background-image: url(http://jokerstudios.sweb.cz/tescoma-popup/button-close.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+  background-color: transparent;
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+	font-size: 13px;
+  line-height: 14px;
+	width: 104px;
+  height: 31px;
+	display: block;
+	border: 0px solid #89b11f;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  text-align: center;
+  text-decoration: none;
+	margin: 0;
+  padding: 0;
+	font-weight: bold;
+	color: rgba(255,255,255,0);
+	opacity: 1;
+}
+.padiPop4Overlay .padiThanks .Closebutton:hover {
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+	top: 19px;
+	left: 149px;
+}
+.padiPop4Overlay .padiThanks .Closebutton:active {
+	top: 20px;
+	left: 150px;
+  filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+	outline: 0;
+}
+.padiClearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.padiPop4Wrap a.padiClose {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 160px;
+	right: 23px;
+	padding: 0;
+	margin: 0;
+	display: block;
+  background-image: url(http://jokerstudios.sweb.cz/tescoma-popup/close.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+	opacity: 0.5;
+  text-indent:-1000em;
+	z-index: 2000;
+	transition: opacity ease-in-out .15s;
+	-moz-transition: opacity ease-in-out .15s;
+	-webkit-transition: opacity ease-in-out .15s;
+}
+.padiPop4Wrap a.padiClose:hover {
+	opacity: 1;
+}
+/* THE FORM FIELDS */
+.padiPop4Overlay form {
+	position: relative;
+  width: 500px;
+	background-image: none;
+	padding: 0px;
+	margin: 0;
+	display: block;
+  vertical-align: top;
+}
+.padiPop4Overlay form .padiField {
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+	width: 164px;
+	height: 29px;
+	padding: 3px 10px 0px 10px;
+	font-size: 14px;
+	font-weight: normal;
+  text-align: left;
+	line-height: 18px;
+	color: #808080;
+	vertical-align: middle;
+	background-color: #ffffff;
+  background-image: url(http://jokerstudios.sweb.cz/tescoma-popup/email-bkg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #a4a1a1;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+	-webkit-transition: border-color ease-in-out .15s, background-color ease-in-out .15s;
+	-moz-transition: border-color ease-in-out .15s, background-color ease-in-out .15s;
+	transition: border-color ease-in-out .15s, background-color ease-in-out .15s;
+	margin: 1px 0 2px 0;
+}
+.padiPop4Overlay form .padiCheck {
+	margin: 0px 4px 2px 4px;
+	vertical-align: bottom;
+}
+.padiPop4Overlay form .padiField:focus {
+	background-color: RGBA(255,255,255,1);
+	outline: 0;
+}
+.padiPop4Overlay form .padiRadioLabel {
+	font-weight: normal !important;
+	font-size: 12px;
+}
+.padiPop4Overlay form option {
+	color: #333;
+}
+.padiPop4Overlay form .padiRadio {
+	margin-bottom: 1.4em;
+	padding: 0;
+	list-style: none;
+}
+.padiPop4Overlay form .padiRadio li {
+	margin: 3px 0px;
+}
+.padiPop4Overlay form .padiButton {
+	color: RGBA(255,255,255,0);
+	background-color: transparent;
+}
+.padiPop4Overlay form .padiButton:hover {
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+	margin: 0px 1px 1px 4px;
+}
+.padiPop4Overlay form .padiButton:active {
+	margin: 1px 0 0px 5px;
+  filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.5));
+	outline: 0;
+}
+.padiPop4Overlay form .padiButton {
+	display: inline-block;
+	padding: 3px 3px 1px 3px;
+	margin: 1px 0 0px 5px;
+	font-size: 13px;
+	width: 104px;
+	height: 31px;
+	font-weight: bold;
+	line-height: 16px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+  background-image: url(http://jokerstudios.sweb.cz/tescoma-popup/button.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 0px solid #89b11f;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	outline: none;
+	opacity: 1;
+	font-family: "Arial", Arial, "Helvetica", sans-serif;
+}
+.padiPop4Overlay form .padiLabel {
+	font-size: 18px;
+  color: #ffffff;
+	display: block;
+	margin: 5px 0;
+	font-weight: 100;
+}
+.padiPop4Overlay form p {
+	font-size: 13px;
+}
+.padiPop4Overlay p.privacy {
+	background-image: none;
+	color: #66808a;
+  dsplay: block;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 12px 0 0 0;
+	padding: 0px;
+	text-shadow: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 13px;
+	font-style: none;
+}
+.padiPreload {
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	left: 442px;
+	padding: 0px;
+}</style></head><body>
+<div class="padiOverlay" style="display: block;">
+  <div class="padiPop4Wrap" style="display: block;">
+    <div class="padiPop4Overlay" >
+      <div class="padiPopupContent" ><a href="#" class="padiClose" title="Close" style="display:block;" >&times;</a>
+
+        <div class="padiContent" style="display:block">
+          
+          <div class="padiTitle">
+            <!-- any TEXT can go from here -->
+            Chcete vědět o našich  slevách a novinkách jako první? Napište svůj e-mail a navíc
+            <!-- to here -->
+          </div>
+          <!-- any HTML can go from here -->
+          <p class="subtitle">získejte slevu 50 Kč.</p>
+          <!-- to here -->
+          
+          <!--padiForm-->
+          <div class="padiFormWrap">
+            <p class="padiErrorMessage" style="display: none">Něco se pokazilo!</p>
+            <div class="padiFields">
+              <form class="padiForm">
+                <label class="padiLabel">váš e-mail:&nbsp;
+                  <input style="" placeholder="@" class="padiField" name="Email|EmailBase" type="email">
+                
+                <input type="hidden" name="segment" value="1576">
+                <button type="submit" name="norilsk_save" class="padiButton">Zaslat kód</button></label>
+                <div class="padiPreload" style="display: none;"><img alt="loading..." src="https://d2xgf76oeu9pbh.cloudfront.net/images/ajax-loader.gif"></div>
+              </form>
+            </div>
+            <!--padiFields--> 
+          </div>
+          <!--padiForm-->
+          <div class="padiPrivacy padiClearfix">
+            <!-- any HTML can go from here -->
+            <p class="privacy">
+            </p>
+
+            <!-- to here -->
+          </div>
+          
+          <div class="padiClear"></div>
+        </div>
+        <div class="padiThanks" style="display:none">
+          <!-- any HTML can go from here -->
+          <p class="padiThanksTitle"><b>Děkujeme</b> za registraci</p>
+          Unikátní slevový kód jsme Vám právě zaslali<br />na uvedený e-mail.
+         <a href="#" class="Closebutton" title="Close" style="display:block;" >&times; ZAVŘÍT</a>
+
+          <!-- to here -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="padiFade"></div>
+</div>
+
+</body></html>
